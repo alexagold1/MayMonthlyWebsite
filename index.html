@@ -16,12 +16,53 @@
 <body>
     <header>
         <!-- place navbar here -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">NY&nbsp;Knicks</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarKnicks"
+                    aria-controls="navbarKnicks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarKnicks">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Roster</a></li>
+                    </ul>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/2/25/New_York_Knicks_logo.svg" alt="Knicks logo"
+                        class="d-none d-lg-block" style="width:48px;height:auto" />
+                </div>
+            </div>
+        </nav>
     </header>
     <main class="container">
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <select id="sortAZ" class="form-select">
+                    <option value="">Sort by A-Z</option>
+                    <option value="az">A-Z</option>
+                    <option value="za">Z-A</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="filterPosition" class="form-select">
+                    <option value="">Filter by Position</option>
+                    <option value="Guard">Guard</option>
+                    <option value="Forward">Forward</option>
+                    <option value="Center">Center</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="filterHeight" class="form-select">
+                    <option value="">Filter by Height</option>
+                    <option value="tall">Tall (6'8 and above)</option>
+                    <option value="short">Short (below 6'8)</option>
+                </select>
+            </div>
+        </div>
         <div id="rosterGrid" class="row g-3">
 
         </div>
-
     </main>
     <footer>
         <!-- place footer here -->
