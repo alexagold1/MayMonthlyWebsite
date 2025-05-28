@@ -4,17 +4,12 @@ body {
   background-size: cover;
 }
 
-h1 {
-  font-family: "sporty-pro", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  margin-top: 100px;
-}
 .navbar {
   font-family: "houschka-rounded", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
+
 #muteButton {
   width: 150px;
   height: 150px;

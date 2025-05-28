@@ -4,6 +4,7 @@ const players = [
     lastName: "Brunson",
     position: "PG",
     age: 28,
+    height: "6'2",
     photo: "imgs/jalenbrunson.png",
   },
   {
@@ -11,6 +12,7 @@ const players = [
     lastName: "Hart",
     position: "SG",
     age: 29,
+    height: "6'4",
     photo: "imgs/joshhart.png",
   },
   {
@@ -18,6 +20,7 @@ const players = [
     lastName: "Anunoby",
     position: "SF",
     age: 27,
+    height: "6'7",
     photo: "imgs/ogananoby.png",
   },
   {
@@ -25,6 +28,7 @@ const players = [
     lastName: "Bridges",
     position: "SF",
     age: 28,
+    height: "6'6",
     photo: "imgs/mikalbridges.png",
   },
   {
@@ -32,6 +36,7 @@ const players = [
     lastName: "Towns",
     position: "C",
     age: 29,
+    height: "7'0",
     photo: "imgs/karlanthonytowns.png",
   },
   {
@@ -39,6 +44,7 @@ const players = [
     lastName: "Achiuwa",
     position: "PF",
     age: 25,
+    height: "6'8",
     photo: "imgs/preciousachewa.png",
   },
   {
@@ -46,6 +52,7 @@ const players = [
     lastName: "McBride",
     position: "PG",
     age: 24,
+    height: "6'1",
     photo: "imgs/milesmcbride.png",
   },
   {
@@ -53,6 +60,7 @@ const players = [
     lastName: "Payne",
     position: "PG",
     age: 30,
+    height: "6'3",
     photo: "imgs/cameronpayne.png",
   },
   {
@@ -60,6 +68,7 @@ const players = [
     lastName: "Wright",
     position: "PG",
     age: 33,
+    height: "6'5",
     photo: "imgs/delonwright.png",
   },
   {
@@ -67,6 +76,7 @@ const players = [
     lastName: "Robinson",
     position: "C",
     age: 26,
+    height: "7'0",
     photo: "imgs/mitchellrob.png",
   },
   {
@@ -74,6 +84,7 @@ const players = [
     lastName: "Shamet",
     position: "SG",
     age: 27,
+    height: "6'4",
     photo: "imgs/landryshamet.png",
   },
   {
@@ -81,6 +92,7 @@ const players = [
     lastName: "Kolek",
     position: "PG",
     age: 23,
+    height: "6'3",
     photo: "imgs/tylerkolek.png",
   },
   {
@@ -88,6 +100,7 @@ const players = [
     lastName: "Dadiet",
     position: "SG",
     age: 19,
+    height: "6'8",
     photo: "imgs/pacomedeidet.png",
   },
   {
@@ -95,6 +108,7 @@ const players = [
     lastName: "McCullar Jr.",
     position: "SF",
     age: 23,
+    height: "6'6",
     photo: "imgs/kevinmccular.png",
   },
   {
@@ -102,6 +116,7 @@ const players = [
     lastName: "Hukporti",
     position: "C",
     age: 22,
+    height: "6'11",
     photo: "imgs/arielhukporti.png",
   },
   {
@@ -109,6 +124,7 @@ const players = [
     lastName: "Watson",
     position: "SF",
     age: 24,
+    height: "6'8",
     photo: "imgs/antonwatson.png",
   },
   {
@@ -116,6 +132,7 @@ const players = [
     lastName: "Beauchamp",
     position: "SF",
     age: 24,
+    height: "6'7",
     photo: "imgs/marjonbeauchamp.png",
   },
   {
@@ -123,6 +140,7 @@ const players = [
     lastName: "Tucker",
     position: "PF",
     age: 40,
+    height: "6'5",
     photo: "imgs/pjtucker.png",
   },
 ];
