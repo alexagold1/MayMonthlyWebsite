@@ -11,20 +11,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function render(playersToShow) {
     grid.innerHTML = "";
-    playersToShow.forEach((player) => {
+    playersToShow.forEach((player, index) => {
       grid.innerHTML += `
-        <div class="col-6 col-md-4 col-lg-2 d-flex">
-          <div class="card shadow-sm w-100 h-100">
-            <img src="${player.photo}" class="card-img-top player-img" alt="${player.firstName} ${player.lastName}">
-            <div class="card-body text-center">
-              <h5 class="card-title mb-1">${player.firstName} ${player.lastName}</h5>
-              <div class="badge bg-primary mb-2">${player.position}</div>
-              <p class="small text-muted mb-0">Age ${player.age}</p>
-            </div>
+      <div class="col-6 col-md-4 col-lg-2 d-flex">
+        <div class="card shadow-sm w-100 h-100">
+          <img src="${player.photo}" class="card-img-top player-img" alt="${player.firstName} ${player.lastName}">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-1">${player.firstName} ${player.lastName}</h5>
+            <div class="badge bg-primary mb-2">${player.position}</div>
+            <p class="small text-muted mb-0">Age ${player.age}</p>
+            <button class="btn btn-sm btn-outline-info mt-2" data-index="${index}" data-bs-toggle="modal" data-bs-target="#funFactModal">
+              More Info
+            </button>
           </div>
         </div>
-      `;
+      </div>
+    `;
     });
+
+    document.querySelectorAll('[data-bs-toggle="modal"]').forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const player = playersToShow[btn.dataset.index];
+        showFunFact(player);
+      });
+    });
+  }
+  function showFunFact(player) {
+    const funFactElement = document.getElementById("modalFunFact");
+    funFactElement.textContent = player.funFact || "No fun fact available.";
   }
 
   function updateRoster() {

@@ -128,9 +128,9 @@ main.container {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .player-img {
-  height: 200px; /* Fixed height */
-  width: 100%; /* Full card width */
-  object-fit: cover; /* Crop to fill, no distortion */
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
@@ -138,4 +138,28 @@ main.container {
   font-family: "komet", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+#funFactModal {
+  border-radius: 12px;
+  border: 2px solid #ffd166;
+  box-shadow: 0 0 15px rgba(255, 215, 102, 0.5);
+}
+
+#funFactModal .modal-title {
+  font-size: 1.5rem;
+  color: #ef476f;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#funFactModal .btn-close {
+  filter: brightness(0.7);
+}
+
+#funFactModal .lead {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #073b4c;
+  padding: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

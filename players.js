@@ -6,6 +6,8 @@ const players = [
     age: 28,
     height: "6'2",
     photo: "imgs/jalenbrunson.png",
+    funFact:
+      "He won Illinois Mr. Basketball and earned the MVP of the 2015 FIBA Under-19 World Cup.",
   },
   {
     firstName: "Josh",
@@ -14,6 +16,8 @@ const players = [
     age: 29,
     height: "6'4",
     photo: "imgs/joshhart.png",
+    funFact:
+      "He's an Eagle Scout, a supporter of Chelsea F.C., an avid golfer, and a fan of the show The Office.",
   },
   {
     firstName: "OG",
@@ -22,6 +26,7 @@ const players = [
     age: 27,
     height: "6'7",
     photo: "imgs/ogananoby.png",
+    funFact: "He was born in London and raised in Missouri.",
   },
   {
     firstName: "Mikal",
@@ -30,6 +35,7 @@ const players = [
     age: 28,
     height: "6'6",
     photo: "imgs/mikalbridges.png",
+    funFact: "He has never missed an NBA game.",
   },
   {
     firstName: "Karl-Anthony",
@@ -38,6 +44,7 @@ const players = [
     age: 29,
     height: "7'0",
     photo: "imgs/karlanthonytowns.png",
+    funFact: "He has a shoe size of 20.",
   },
   {
     firstName: "Precious",
@@ -46,6 +53,8 @@ const players = [
     age: 25,
     height: "6'8",
     photo: "imgs/preciousachewa.png",
+    funFact:
+      "He earned conference player of the year honors as a freshman in the American Athletic Conference (AAC) in 2020.",
   },
   {
     firstName: "Miles",
@@ -54,6 +63,7 @@ const players = [
     age: 24,
     height: "6'1",
     photo: "imgs/milesmcbride.png",
+    funFact: "He's been nicknamed Deuce since he was in third grade.",
   },
   {
     firstName: "Cameron",
@@ -62,6 +72,8 @@ const players = [
     age: 30,
     height: "6'3",
     photo: "imgs/cameronpayne.png",
+    funFact:
+      "He played college basketball at Murray State University, where he was inducted into their Hall of Fame in 2020",
   },
   {
     firstName: "Delon",
@@ -70,6 +82,8 @@ const players = [
     age: 33,
     height: "6'5",
     photo: "imgs/delonwright.png",
+    funFact:
+      "He is known for his versatility and strong defensive play, often earning him the nickname King of Deflections.",
   },
   {
     firstName: "Mitchell",
@@ -78,6 +92,8 @@ const players = [
     age: 26,
     height: "7'0",
     photo: "imgs/mitchellrob.png",
+    funFact:
+      "He lives with 19 dogs, split between homes in New York and Louisiana.",
   },
   {
     firstName: "Landry",
@@ -86,6 +102,7 @@ const players = [
     age: 27,
     height: "6'4",
     photo: "imgs/landryshamet.png",
+    funFact: "Some fans call him The Shot due to his strong shooting ability.",
   },
   {
     firstName: "Tyler",
@@ -94,6 +111,8 @@ const players = [
     age: 23,
     height: "6'3",
     photo: "imgs/tylerkolek.png",
+    funFact:
+      "Before Marquette, he played at George Mason, where he was the Atlantic 10 Rookie of the Year. ",
   },
   {
     firstName: "Pacome",
@@ -102,6 +121,7 @@ const players = [
     age: 19,
     height: "6'8",
     photo: "imgs/pacomedeidet.png",
+    funFact: "He won a bronze medal at the 2022 FIBA U17 World Championship.",
   },
   {
     firstName: "Kevin",
@@ -110,6 +130,8 @@ const players = [
     age: 23,
     height: "6'6",
     photo: "imgs/kevinmccular.png",
+    funFact:
+      " McCullar earned All-Big 12 honors, including All-Defensive Team, during his time at Kansas. ",
   },
   {
     firstName: "Ariel",
@@ -118,6 +140,8 @@ const players = [
     age: 22,
     height: "6'11",
     photo: "imgs/arielhukporti.png",
+    funFact:
+      "He was born in Stralsund, Germany to Togolese parents and was raised by a single mother.",
   },
   {
     firstName: "Anton",
@@ -126,6 +150,8 @@ const players = [
     age: 24,
     height: "6'8",
     photo: "imgs/antonwatson.png",
+    funFact:
+      "Watson grew up a fan of the Boston Red Sox and hopes to attend a game at Fenway Park. ",
   },
   {
     firstName: "Marjon",
@@ -134,6 +160,8 @@ const players = [
     age: 24,
     height: "6'7",
     photo: "imgs/marjonbeauchamp.png",
+    funFact:
+      "  His grandfather, Henry Beauchamp, was the first African-American mayor of Yakima, Washington. ",
   },
   {
     firstName: "P.J.",
@@ -142,5 +170,7 @@ const players = [
     age: 40,
     height: "6'5",
     photo: "imgs/pjtucker.png",
+    funFact:
+      "Tucker is widely recognized for his love of sneakers and has been a prominent figure in the sneaker culture. ",
   },
 ];
