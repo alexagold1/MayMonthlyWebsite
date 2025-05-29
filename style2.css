@@ -134,3 +134,8 @@ main.container {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
+* {
+  font-family: "komet", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

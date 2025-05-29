@@ -5,8 +5,8 @@ body {
 }
 
 h1 {
-  font-family: "sporty-pro", sans-serif;
-  font-weight: 500;
+  font-family: "snicker", sans-serif;
+  font-weight: 700;
   font-style: normal;
   margin-top: 100px;
 }
@@ -27,86 +27,32 @@ h1 {
 .custom-select {
   font-size: 1.1rem;
   padding: 0.5rem;
-  border-radius: 0.375rem; /* Rounded corners */
-  background-color: #f1f1f1; /* Light gray background */
-  border: 2px solid #007bff; /* Blue border */
-  transition: all 0.3s ease-in-out; /* Smooth transition */
+  border-radius: 0.375rem;
+  background-color: #f1f1f1;
+  border: 2px solid #007bff;
+  transition: all 0.3s ease-in-out;
 }
 
 .custom-select:focus {
-  background-color: #e9ecef; /* Slightly darker gray on focus */
-  border-color: #0056b3; /* Darker blue border on focus */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
+  background-color: #e9ecef;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .custom-select option {
   background-color: #ffffff; /* White background for options */
 }
 
-/* Make the buttons more consistent with the color scheme */
 .custom-select:hover {
-  border-color: #0056b3; /* Darker blue border on hover */
+  border-color: #0056b3;
 }
 
 .custom-select:disabled {
-  background-color: #d6d6d6; /* Gray background for disabled select */
-  border-color: #b0b0b0; /* Gray border */
+  background-color: #d6d6d6;
+  border-color: #b0b0b0;
 }
 
 /* Adjust the size and spacing for small devices */
-@media (max-width: 767px) {
-  .custom-select {
-    font-size: 1rem; /* Smaller font size on mobile */
-    padding: 0.4rem; /* Smaller padding on mobile */
-  }
-}
-/* Custom Styles for Dropdown Buttons */
-.custom-select {
-  font-size: 1.1rem;
-  padding: 0.5rem;
-  border-radius: 0.375rem; /* Rounded corners */
-  background-color: #007bff; /* Blue background */
-  color: white; /* White text */
-  border: 2px solid #0056b3; /* Dark blue border */
-  transition: all 0.3s ease-in-out; /* Smooth transition */
-}
-
-.custom-select:focus {
-  background-color: #0056b3; /* Darker blue on focus */
-  border-color: #003366; /* Even darker blue on focus */
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Focus shadow */
-}
-
-.custom-select option {
-  background-color: #007bff; /* Blue background for options */
-  color: white; /* White text for options */
-}
-
-.custom-select option:hover {
-  background-color: #0056b3; /* Darker blue when option is hovered */
-}
-
-/* Adjust the size and spacing for small devices */
-@media (max-width: 767px) {
-  .custom-select {
-    font-size: 1rem; /* Smaller font size on mobile */
-    padding: 0.4rem; /* Smaller padding on mobile */
-  }
-}
-
-/* Hover effect for the select box */
-.custom-select:hover {
-  border-color: #003366; /* Darker blue border on hover */
-}
-
-/* Disabled state styling */
-.custom-select:disabled {
-  background-color: #b0c4de; /* Lighter blue for disabled state */
-  border-color: #a0b9d6; /* Lighter blue border */
-  color: #d3d3d3; /* Light gray text for disabled select */
-}
-
-/* Responsive dropdown styling for better usability */
 @media (max-width: 767px) {
   .custom-select {
     font-size: 1rem; /* Smaller font size on mobile */
@@ -133,9 +79,30 @@ main.container {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 .player-img {
-  height: 200px; /* Fixed height */
-  width: 100%; /* Full card width */
-  object-fit: cover; /* Crop to fill, no distortion */
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+}
+.neon-text {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 0 0 5px #f58426, 0 0 10px #f58426, 0 0 20px #f58426,
+    0 0 40px #f58426, 0 0 80px #f58426;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #f58426, 0 0 10px #f58426, 0 0 20px #f58426,
+      0 0 40px #f58426, 0 0 80px #f58426;
+  }
+  100% {
+    text-shadow: 0 0 10px #006bb6, 0 0 20px #006bb6, 0 0 40px #006bb6,
+      0 0 80px #006bb6, 0 0 160px #006bb6;
+  }
+}
+.btn {
+  margin-top: 50px;
 }
