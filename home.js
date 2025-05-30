@@ -33,23 +33,22 @@ document.getElementById("meetTeamBtn").addEventListener("click", function (e) {
   ball.src =
     "https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png";
   ball.style.position = "fixed";
-  ball.style.width = "150px"; // bigger starting width
-  ball.style.height = "150px"; // bigger starting height
+  ball.style.width = "150px";
+  ball.style.height = "150px";
   ball.style.left = "50%";
   ball.style.top = "50%";
   ball.style.transform = "translate(-50%, -50%) scale(1)";
-  ball.style.zIndex = "1050"; // above modal and navbar
+  ball.style.zIndex = "1050";
   ball.style.transition = "transform 1.5s ease, opacity 1.5s ease";
 
   document.body.appendChild(ball);
 
-  // Trigger animation: grow and come out (scale up and move closer)
+  // ball animation: grow and come out (scale up and move closer)
   setTimeout(() => {
-    ball.style.transform = "translate(-50%, -50%) scale(7)"; // bigger scale
+    ball.style.transform = "translate(-50%, -50%) scale(7)";
     ball.style.opacity = "0";
   }, 50);
 
-  // After animation, redirect
   setTimeout(() => {
     window.location.href = "index.html";
   }, 1050);

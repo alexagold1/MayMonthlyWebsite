@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <h5 class="card-title mb-1">${player.firstName} ${player.lastName}</h5>
             <div class="badge bg-primary mb-2">${player.position}</div>
             <p class="small text-muted mb-0">Age ${player.age}</p>
-            <button class="btn btn-sm btn-outline-info mt-2" data-index="${index}" data-bs-toggle="modal" data-bs-target="#funFactModal">
+            <button class="btn btn-sm btn-outline-primary mt-2" data-index="${index}" data-bs-toggle="modal" data-bs-target="#funFactModal">
               More Info
             </button>
           </div>
